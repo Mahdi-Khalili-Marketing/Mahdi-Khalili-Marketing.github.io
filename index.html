@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahdi Khalili | Performance Marketing & AI Automation Specialist</title>
+  <meta name="description" content="Portfolio of Mahdi Khalili - Performance Marketer, AI Agent Builder, and Automation Engineer." />
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            },
+            dark: {
+              900: '#0B0F19',
+              800: '#111827',
+              700: '#1F2937',
+              600: '#374151',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .gradient-text {
+      background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .glow-bg {
+      background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.15) 0%, rgba(11, 15, 25, 0) 70%);
+    }
+  </style>
+</head>
+
+<body class="bg-[#0B0F19] text-slate-300 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- Glow Background Effect -->
+  <div class="fixed inset-0 glow-bg pointer-events-none z-0"></div>
+
+  <!-- Header / Navigation -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-[#0B0F19]/80 backdrop-blur-md border-b border-slate-800/80">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-lg text-white tracking-tight flex items-center gap-2">
+        <span class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white font-mono text-sm shadow-lg shadow-brand-500/30">MK</span>
+        <span>Mahdi Khalili</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#projects" class="hover:text-white transition">Engineering & AI</a>
+        <a href="#growth" class="hover:text-white transition">Performance & Growth</a>
+        <a href="#skills" class="hover:text-white transition">Stack</a>
+        <a href="#experience" class="hover:text-white transition">Experience</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://t.me/mim_khe_0" target="_blank" class="px-4 py-2 text-xs font-semibold rounded-lg bg-brand-600 hover:bg-brand-500 text-white transition flex items-center gap-1.5 shadow-lg shadow-brand-600/20">
+          <i data-lucide="send" class="w-3.5 h-3.5"></i>
+          <span>Let's Talk</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10 pt-28 pb-20">
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 py-16 md:py-24">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-950/80 border border-brand-800/60 text-brand-400 text-xs font-medium mb-6 animate-pulse">
+        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+        Available for Full-time Roles & High-Impact Contracts
+      </div>
+
+      <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-[1.15] mb-6">
+        Bridging the gap between <br class="hidden sm:inline"/>
+        <span class="gradient-text">Performance Growth</span> and <span class="gradient-text">AI Automation</span>.
+      </h1>
+
+      <p class="text-slate-400 text-lg md:text-xl max-w-3xl leading-relaxed mb-8">
+        6 years scaling B2B/B2C acquisition through Google & Meta Ads, while engineering the underlying engine: 
+        <span class="text-slate-200">n8n workflow pipelines</span>, <span class="text-slate-200">LLM agents</span>, <span class="text-slate-200">custom WordPress plugins</span>, and <span class="text-slate-200">operational CRMs</span>.
+      </p>
+
+      <!-- Key Impact Metrics -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mb-10">
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 backdrop-blur">
+          <div class="text-2xl md:text-3xl font-extrabold text-white font-mono">-34%</div>
+          <div class="text-xs text-slate-400 mt-1">CPL Reduction (B2B)</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 backdrop-blur">
+          <div class="text-2xl md:text-3xl font-extrabold text-white font-mono">+60%</div>
+          <div class="text-xs text-slate-400 mt-1">E-commerce Sales Growth</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 backdrop-blur">
+          <div class="text-2xl md:text-3xl font-extrabold text-white font-mono">40%</div>
+          <div class="text-xs text-slate-400 mt-1">Ops Time Cut via AppSheet</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 backdrop-blur">
+          <div class="text-2xl md:text-3xl font-extrabold text-white font-mono">4 Langs</div>
+          <div class="text-xs text-slate-400 mt-1">EN, TR, AZ, FA</div>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex flex-wrap gap-4 items-center">
+        <a href="https://www.linkedin.com/in/mahdi-khalili-marketing/" target="_blank" class="px-6 py-3 rounded-xl bg-white text-slate-950 font-semibold text-sm hover:bg-slate-200 transition flex items-center gap-2">
+          <i data-lucide="linkedin" class="w-4 h-4"></i>
+          LinkedIn Profile
+        </a>
+        <a href="mailto:mahdikhalili42@gmail.com" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold text-sm transition flex items-center gap-2">
+          <i data-lucide="mail" class="w-4 h-4"></i>
+          Email Me
+        </a>
+        <a href="tel:+998886655937" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-400 hover:text-white font-mono text-sm transition flex items-center gap-2">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          +998 (88) 665-5937
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION: Engineered AI & Software Projects -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-800/80">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-brand-400 text-xs font-bold uppercase tracking-wider font-mono">Full-Stack Automation & Tools</span>
+          <h2 class="text-3xl font-bold text-white mt-1">AI Plugins & Automation Architecture</h2>
+        </div>
+        <p class="text-slate-400 text-sm max-w-md mt-2 md:mt-0">
+          Tools I've built to replace repetitive marketing operations with deterministic code and LLM systems.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Project 1: Internal Link Suggester -->
+        <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-brand-500/50 transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-purple-950/80 text-purple-300 border border-purple-800/60 text-xs font-mono">WordPress + AI Engine</span>
+              <i data-lucide="bot" class="w-5 h-5 text-purple-400"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-400 transition">Internal Link Suggester</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">
+              PHP port of an advanced n8n semantic pipeline. Uses OpenAI <code class="text-xs font-mono text-slate-200">text-embedding-3-small</code> + Cosine Similarity & GPT-4o to propose contextual, anti-spam internal links with a 1-click review/apply dashboard.
+            </p>
+            <div class="space-y-1.5 text-xs text-slate-300 font-mono mb-4">
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Vector embeddings in MySQL</div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Contextual sentence link injection</div>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+            <span>PHP, MySQL, GPT-4o, OpenAI API</span>
+          </div>
+        </div>
+
+        <!-- Project 2: SAImage SEO Plugin -->
+        <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-brand-500/50 transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-blue-950/80 text-blue-300 border border-blue-800/60 text-xs font-mono">WordPress Core Tool</span>
+              <i data-lucide="image" class="w-5 h-5 text-blue-400"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-400 transition">SAImage – Contextual ALT Manager</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">
+              Automates image ALT attribute optimization for standard posts by parsing DOM structure to find the nearest preceding heading. Features batched AJAX scanning, missing-ALT audit manager, and rollback logging.
+            </p>
+            <div class="space-y-1.5 text-xs text-slate-300 font-mono mb-4">
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> DOMDocument & XPath parsing</div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Safe chunked AJAX execution</div>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+            <span>PHP, DOMXPath, JavaScript, i18n</span>
+          </div>
+        </div>
+
+        <!-- Project 3: Interactive n8n Workflow Builder -->
+        <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-brand-500/50 transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-amber-950/80 text-amber-300 border border-amber-800/60 text-xs font-mono">Web Tool & Generator</span>
+              <i data-lucide="cpu" class="w-5 h-5 text-amber-400"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-400 transition">n8n Lead Flow Builder</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">
+              Interactive client-side blueprint generator that renders SVG node flow diagrams in real-time, calculates time saved per month, and outputs valid, importable n8n workflow JSON files.
+            </p>
+            <div class="space-y-1.5 text-xs text-slate-300 font-mono mb-4">
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Zero-dependency, offline-ready</div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Dynamic n8n JSON generator</div>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+            <span>HTML5, SVG, Vanilla JS, n8n Nodes</span>
+          </div>
+        </div>
+
+        <!-- Project 4: Dental Clinics AI Receptionist -->
+        <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-brand-500/50 transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-teal-950/80 text-teal-300 border border-teal-800/60 text-xs font-mono">Conversational AI</span>
+              <i data-lucide="message-square" class="w-5 h-5 text-teal-400"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-400 transition">WhatsApp AI Receptionist</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">
+              Built an automated WhatsApp booking and triage receptionist for dental clinics in Türkiye and Azerbaijan supporting Turkish & Azerbaijani, coupled with a scraped 284-clinic outreach pipeline.
+            </p>
+            <div class="space-y-1.5 text-xs text-slate-300 font-mono mb-4">
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Multi-lingual LLM prompt tuning</div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Automated appointment routing</div>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+            <span>WhatsApp Cloud API, Claude API, n8n</span>
+          </div>
+        </div>
+
+        <!-- Project 5: AppSheet Manufacturing ERP -->
+        <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-brand-500/50 transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-emerald-950/80 text-emerald-300 border border-emerald-800/60 text-xs font-mono">No-Code ERP/CRM</span>
+              <i data-lucide="layers" class="w-5 h-5 text-emerald-400"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-400 transition">Jewelry-Tools Ops CRM</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">
+              Built a complete operations platform for an 18-person manufacturing team: leads, inventory, production tracking, tickets, and order fulfillment — cutting order processing time by 40%.
+            </p>
+            <div class="space-y-1.5 text-xs text-slate-300 font-mono mb-4">
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> 40% faster order processing</div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Replaced manual tracking sheets</div>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+            <span>Google AppSheet, Apps Script, BigQuery</span>
+          </div>
+        </div>
+
+        <!-- Project 6: Automated Outbound Cold Pipeline -->
+        <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-brand-500/50 transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-indigo-950/80 text-indigo-300 border border-indigo-800/60 text-xs font-mono">Outbound Automation</span>
+              <i data-lucide="mail-check" class="w-5 h-5 text-indigo-400"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-400 transition">AI Dynamic Outbound Engine</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">
+              Built high-deliverability n8n pipelines integrated with Claude API to dynamically personalize cold outreach at scale (1,200+ emails/month) yielding a 4% response rate and ~8 meetings/mo.
+            </p>
+            <div class="space-y-1.5 text-xs text-slate-300 font-mono mb-4">
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> 4% organic response rate</div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> LLM web research integration</div>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+            <span>Claude API, n8n, Webhooks, SMTP</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: Performance Marketing Track Record -->
+    <section id="growth" class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-800/80">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider font-mono">Growth & Paid Acquisition</span>
+          <h2 class="text-3xl font-bold text-white mt-1">Paid Ads & CRO Case Studies</h2>
+        </div>
+        <p class="text-slate-400 text-sm max-w-md mt-2 md:mt-0">
+          Scaling B2B and e-commerce through strict ROAS/CPA tracking, CRO experiments, and funnel optimization.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Growth Case 1 -->
+        <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-emerald-400 font-semibold">Bismoot — Chemical B2B</span>
+            <span class="text-xs text-slate-500 font-mono">2025–2026</span>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Google Ads & Funnel Redesign</h3>
+          <ul class="text-sm text-slate-400 space-y-2.5">
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span><strong>-34% CPL:</strong> Scaled 6 high-intent Search/Shopping campaigns for industrial chemical buyers.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span><strong>2.1% → 3.6% CVR:</strong> Redesigned price & sample request pages through structured A/B tests.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span>Reallocated 30% of budget to top channels, lifting qualified lead volume by +28%.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Growth Case 2 -->
+        <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-emerald-400 font-semibold">Tashil Tejarat — Logistics</span>
+            <span class="text-xs text-slate-500 font-mono">2023–2024</span>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Lead Gen & B2B Content SEO</h3>
+          <ul class="text-sm text-slate-400 space-y-2.5">
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span><strong>CPL dropped from $18 to $11:</strong> Optimized contact and quote request funnels.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span><strong>+32% B2B Leads:</strong> Managed continuous CRO on 9,000+ monthly logistics sessions.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span>Authored page-one ranking longform freight insurance guides driving high-intent B2B organic traffic.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Growth Case 3 -->
+        <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-emerald-400 font-semibold">Limado — E-commerce</span>
+            <span class="text-xs text-slate-500 font-mono">2022–2023</span>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Meta Ads & Paid Acquisition</h3>
+          <ul class="text-sm text-slate-400 space-y-2.5">
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span><strong>+60% Sales Lift:</strong> Meta & Instagram acquisition with rapid creative iteration and audience testing.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span>End-to-end full-funnel tracking on CAC, CPL, and ROAS using GA4 and pixel custom events.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">↳</span>
+              <span>Synchronized email retention flows with paid acquisition audiences.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Tech Stack & Skills -->
+    <section id="skills" class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-800/80">
+      <div class="mb-12">
+        <span class="text-brand-400 text-xs font-bold uppercase tracking-wider font-mono">Capabilities</span>
+        <h2 class="text-3xl font-bold text-white mt-1">Tools & Technology Stack</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Pillar 1 -->
+        <div class="space-y-4">
+          <h3 class="text-base font-semibold text-white flex items-center gap-2">
+            <i data-lucide="cpu" class="w-4 h-4 text-brand-400"></i>
+            AI & Automation
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">n8n (Advanced)</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Claude API & Agents</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">OpenAI Embeddings</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">MCP (Model Context Protocol)</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">WhatsApp & Telegram Bots</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Webhooks & REST APIs</span>
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="space-y-4">
+          <h3 class="text-base font-semibold text-white flex items-center gap-2">
+            <i data-lucide="trending-up" class="w-4 h-4 text-emerald-400"></i>
+            Growth & Performance
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Google Ads (Search & Shopping)</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Meta & Instagram Ads</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Conversion Rate Optimization (CRO)</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Google Analytics 4 (GA4)</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Google Tag Manager (GTM)</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Looker Studio & BigQuery</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">SEO & Semrush</span>
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="space-y-4">
+          <h3 class="text-base font-semibold text-white flex items-center gap-2">
+            <i data-lucide="code" class="w-4 h-4 text-blue-400"></i>
+            Development & Platforms
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">WordPress Plugin Dev (PHP/DOM)</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">AppSheet (Full CRM Architecture)</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">JavaScript / DOM / JSON</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">MySQL & SQL Querying</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">Git & GitHub</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: Experience Timeline -->
+    <section id="experience" class="max-w-4xl mx-auto px-6 py-16 border-t border-slate-800/80">
+      <div class="mb-12">
+        <span class="text-brand-400 text-xs font-bold uppercase tracking-wider font-mono">Career</span>
+        <h2 class="text-3xl font-bold text-white mt-1">Work History</h2>
+      </div>
+
+      <div class="space-y-8 relative before:absolute before:inset-0 before:left-3.5 before:w-0.5 before:bg-slate-800">
+        
+        <!-- Experience 1 -->
+        <div class="relative pl-10">
+          <div class="absolute left-2 top-1.5 w-3.5 h-3.5 rounded-full bg-brand-500 ring-4 ring-[#0B0F19]"></div>
+          <div class="text-xs font-mono text-brand-400">Jan 2026 – Present</div>
+          <h3 class="text-lg font-bold text-white mt-0.5">Founder & AI Automation Consultant <span class="text-slate-400 font-normal">· Afra AI Agency</span></h3>
+          <p class="text-slate-400 text-sm mt-2 leading-relaxed">
+            Architecting end-to-end n8n pipelines, Claude API agent workflows, and AppSheet CRM solutions for B2B, e-commerce, and healthcare clients across Türkiye, Azerbaijan, and Central Asia.
+          </p>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="relative pl-10">
+          <div class="absolute left-2 top-1.5 w-3.5 h-3.5 rounded-full bg-slate-700 ring-4 ring-[#0B0F19]"></div>
+          <div class="text-xs font-mono text-slate-400">Jan 2025 – Jan 2026</div>
+          <h3 class="text-lg font-bold text-white mt-0.5">Performance Marketing Specialist <span class="text-slate-400 font-normal">· Bismoot (Chemical E-commerce)</span></h3>
+          <p class="text-slate-400 text-sm mt-2 leading-relaxed">
+            Managed Google Ads Search & Shopping campaigns; decreased CPL by 34% through landing page A/B tests (2.1% to 3.6% CVR) and full-funnel GA4 attribution reporting.
+          </p>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="relative pl-10">
+          <div class="absolute left-2 top-1.5 w-3.5 h-3.5 rounded-full bg-slate-700 ring-4 ring-[#0B0F19]"></div>
+          <div class="text-xs font-mono text-slate-400">May 2023 – Oct 2024</div>
+          <h3 class="text-lg font-bold text-white mt-0.5">B2B Performance Marketer <span class="text-slate-400 font-normal">· Tashil Tejarat (Logistics)</span></h3>
+          <p class="text-slate-400 text-sm mt-2 leading-relaxed">
+            Cut B2B lead acquisition cost from $18 to $11 while increasing overall lead volume by 32%; authored high-intent SEO content ranking #1 for international freight queries.
+          </p>
+        </div>
+
+        <!-- Experience 4 -->
+        <div class="relative pl-10">
+          <div class="absolute left-2 top-1.5 w-3.5 h-3.5 rounded-full bg-slate-700 ring-4 ring-[#0B0F19]"></div>
+          <div class="text-xs font-mono text-slate-400">May 2022 – Apr 2023</div>
+          <h3 class="text-lg font-bold text-white mt-0.5">Digital Marketing Specialist <span class="text-slate-400 font-normal">· Limado Online Store</span></h3>
+          <p class="text-slate-400 text-sm mt-2 leading-relaxed">
+            Scaled paid social on Meta and Instagram, boosting direct sales by 60% with granular creative and audience testing.
+          </p>
+        </div>
+
+        <!-- Experience 5 -->
+        <div class="relative pl-10">
+          <div class="absolute left-2 top-1.5 w-3.5 h-3.5 rounded-full bg-slate-700 ring-4 ring-[#0B0F19]"></div>
+          <div class="text-xs font-mono text-slate-400">Jun 2020 – Jan 2022</div>
+          <h3 class="text-lg font-bold text-white mt-0.5">Junior Digital Marketing Specialist <span class="text-slate-400 font-normal">· Darkoob Advertising Agency</span></h3>
+          <p class="text-slate-400 text-sm mt-2 leading-relaxed">
+            Executed multi-channel digital ad strategies for 7 clients, cutting average client CPA by 22% through budget pacing and SEO audits.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: CTA / Contact Banner -->
+    <section class="max-w-6xl mx-auto px-6 py-12">
+      <div class="p-8 md:p-12 rounded-3xl bg-gradient-to-r from-brand-700 to-indigo-900 text-white relative overflow-hidden shadow-2xl">
+        <div class="relative z-10 max-w-2xl">
+          <h2 class="text-3xl font-extrabold tracking-tight mb-4">Let's build high-converting growth systems together.</h2>
+          <p class="text-brand-100 text-base mb-8 leading-relaxed">
+            Whether you need to scale paid acquisition or build custom AI agents that eliminate manual operations, I'm ready to ship results.
+          </p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <a href="https://t.me/mim_khe_0" target="_blank" class="px-6 py-3 rounded-xl bg-white text-slate-900 font-bold text-sm hover:bg-slate-100 transition shadow-lg">
+              Message on Telegram (@mim_khe_0)
+            </a>
+            <a href="https://www.linkedin.com/in/mahdi-khalili-marketing/" target="_blank" class="px-6 py-3 rounded-xl bg-brand-900/60 hover:bg-brand-900 border border-brand-400/40 text-white font-bold text-sm transition">
+              Connect on LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 text-slate-500 py-8 text-center text-xs">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>© 2026 Mahdi Khalili · Performance Marketing & AI Automation Specialist</p>
+      <div class="flex items-center gap-6">
+        <a href="mailto:mahdikhalili42@gmail.com" class="hover:text-slate-300">mahdikhalili42@gmail.com</a>
+        <a href="https://t.me/mim_khe_0" class="hover:text-slate-300">Telegram</a>
+        <a href="https://www.linkedin.com/in/mahdi-khalili-marketing/" class="hover:text-slate-300">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
